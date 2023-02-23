@@ -31,8 +31,8 @@ const Home = ({data,cards}) => {
       <Header/>
       <Banner/>
 
-      <main className='max-w-7xl mx-auto px-8 sm:px-16 scroll-smooth '>
-        <section className='my-7'>
+      <main className='max-w-7xl mx-auto px-8 sm:px-16 scroll-smooth bg-slate-100 drop-shadow-lg'>
+        <section className='my-7 pt-10'>
           <h2 className='text-3xl font-bold'>
             Explore Nearby
           </h2>
