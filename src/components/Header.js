@@ -60,17 +60,18 @@ const Header = () => {
         
         {searchInput && (
             
-            <div className='flex mx-auto col-span-3 flex-col'>
-            <DateRangePicker className='bg-slate-400'
+            <div className='flex md:mx-auto sm:mx-auto lg:mx-auto col-span-3 flex-col'>
+            <DateRangePicker
             
             ranges={[selectionRange]}
             minDate={new Date()}
             rangeColors={["#FD5B61"]}
             onChange = {handleSelect}
             
+            
             />
 
-                    <div className='flex flex-col flex-grow-0'>
+                    <div className='flex flex-col '>
 
                         <h1 className='text-2xl font-bold flex-grow'>
                             Add Guest
